@@ -5,7 +5,7 @@
  */
 package lab8_erick_martinez;
 
-import java.sql.Date;
+import java.util.Date;
 
 /**
  *

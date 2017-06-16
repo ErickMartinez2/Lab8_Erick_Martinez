@@ -16,17 +16,19 @@ public class Contacto {
     private String correo;
     private String direccion;
     private String genero;
+    private int id;
 
     public Contacto() {
     }
 
-    public Contacto(String nombre, int edad, int numero, String correo, String direccion, String genero) {
+    public Contacto(String nombre, int edad, int numero, String correo, String direccion, String genero, int id) {
         this.nombre = nombre;
         this.edad = edad;
         this.numero = numero;
         this.correo = correo;
         this.direccion = direccion;
         this.genero = genero;
+        this.id = id;
     }
 
     public String getNombre() {
@@ -76,6 +78,16 @@ public class Contacto {
     public void setGenero(String genero) {
         this.genero = genero;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    
 
     
 
