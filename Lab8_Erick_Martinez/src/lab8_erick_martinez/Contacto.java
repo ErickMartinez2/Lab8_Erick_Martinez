@@ -15,16 +15,18 @@ public class Contacto {
     private int numero;
     private String correo;
     private String direccion;
+    private String genero;
 
     public Contacto() {
     }
 
-    public Contacto(String nombre, int edad, int numero, String correo, String direccion) {
+    public Contacto(String nombre, int edad, int numero, String correo, String direccion, String genero) {
         this.nombre = nombre;
         this.edad = edad;
         this.numero = numero;
         this.correo = correo;
         this.direccion = direccion;
+        this.genero = genero;
     }
 
     public String getNombre() {
@@ -66,6 +68,16 @@ public class Contacto {
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
+    
 
     @Override
     public String toString() {
