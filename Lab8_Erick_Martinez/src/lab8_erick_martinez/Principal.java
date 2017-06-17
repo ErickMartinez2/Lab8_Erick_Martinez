@@ -9,6 +9,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Date;
 import javax.swing.DefaultListModel;
+import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
@@ -503,7 +504,7 @@ public class Principal extends javax.swing.JFrame {
             .addGap(0, 439, Short.MAX_VALUE)
         );
 
-        tab.addTab("tab5", jPanel9);
+        tab.addTab("Hilo", jPanel9);
 
         jButton4.setText("Cargar Datos");
 
